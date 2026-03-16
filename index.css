@@ -1,0 +1,147 @@
+
+    .img{
+        margin-left: 50px;
+        width: 70px;
+    }
+    .nav{
+     text-decoration: none;
+     margin-left: 20px;
+     color: black;
+    }
+    .navs{
+        margin-left: 200px;
+             text-decoration: none;
+                  color: black;    
+    }
+    .container {
+  position: relative;
+  width: 500px;
+}
+
+.container img {
+  width:1400px;
+}
+
+.text {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:black;
+  font-size: 15px;
+  font-weight: bold;
+}
+#img2{
+display:none;
+}
+ .blogs{
+            display:grid;
+            grid-template-columns:repeat(4,1fr);
+            gap:5px;
+            margin-left:50px;
+        }
+    
+        .blog-card{
+            background:white;
+            border-radius: 20px;
+            padding: 15px;
+            box-shadow:0 4px 8px rgba(0,0,0,0.1);
+        }
+        .img-container{
+            position:relative;
+            width:100%;
+        }
+    .image-text{
+            position:absolute;
+            top:10px;
+            left:250px;
+            background-color:white;
+            color:black;
+            padding:5px 10px;
+            border-radius:5px;
+            font-size:14px;
+        
+        }
+         .blog-card img{
+            width:250px;
+            height:200px;
+         border-radius: 10px;
+         display:block;
+        }
+            
+
+
+
+
+.btn{
+background:#0067b8;
+color:white;
+border:none;
+padding:10px 20px;
+margin-top:10px;
+cursor:pointer;
+}
+
+
+
+        .footer{
+background:#f5f6f8;
+padding:40px 60px;
+font-family:Arial;
+width:1400px;
+}
+
+.footer-top{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.circle{
+background:#0a66c2;
+color:white;
+border-radius:50%;
+padding:5px 10px;
+margin-right:5px;
+}
+
+.social i{
+margin-left:15px;
+font-size:18px;
+cursor:pointer;
+}
+
+.footer-columns{
+display:flex;
+flex-wrap:wrap;
+justify-content:space-between;
+margin-top:30px;
+}
+
+.column{
+width:200px;
+margin-bottom:20px;
+}
+
+.column h3{
+font-size:16px;
+margin-bottom:10px;
+}
+
+.column p{
+font-size:14px;
+margin:5px 0;
+color:#555;
+cursor:pointer;
+}
+
+.column p:hover{
+color:#0a66c2;
+}
+
+
+
+
+
+
+
